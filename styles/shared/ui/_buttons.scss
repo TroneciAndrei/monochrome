@@ -1,0 +1,25 @@
+.button {
+  font-family: 'Roboto', sans-serif;
+  padding: 12px;
+  font-size: 22px;
+  border: 1px solid $black;
+  color: $brand-primary;
+  background-color: $white;
+  text-transform: lowercase;
+  transition: color 0.2s linear, background-color 0.2s linear,
+    transform 0.2s linear;
+  font-weight: 300;
+  background-color: unset;
+
+  &-submit {
+    font-size: 12px;
+    padding: 6px 14px;
+    text-transform: uppercase;
+  }
+
+  &:hover {
+    background-color: $black;
+    color: $white;
+    transform: scale(1.1);
+  }
+}

@@ -1,0 +1,39 @@
+.footer {
+  background-color: $brand-secondary;
+
+  &-primary-inner {
+    font-size: 22px;
+  }
+
+  &-primary-newsletter {
+    font-size: 22px;
+  }
+
+  &-search {
+    width: 261px;
+  }
+
+  &-social {
+    h1 {
+      font-size: 22px;
+      font-weight: 400;
+    }
+
+    p {
+      font-size: 16px;
+      font-weight: 400;
+    }
+
+    ul {
+      font-size: 20px;
+
+      i {
+        transition: transform 0.2s linear;
+
+        &:hover {
+          transform: scale(1.2);
+        }
+      }
+    }
+  }
+}
