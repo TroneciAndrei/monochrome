@@ -99,7 +99,7 @@ export default function Home() {
 
         <section className="footer-secondary">
           <section className="footer-search">
-            <h1 className="d-block d-md-none">Let's connect</h1>
+            <h1 className="d-block d-md-none">Lets connect</h1>
             <p className="d-block d-md-none">
               Be the first to receive exclusives offers
             </p>

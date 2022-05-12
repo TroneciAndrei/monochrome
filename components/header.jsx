@@ -102,7 +102,7 @@ export default function Home() {
 
                 <li>
                   <a href="" title="Men's">
-                    Men's
+                    Mens
                   </a>
                 </li>
 
