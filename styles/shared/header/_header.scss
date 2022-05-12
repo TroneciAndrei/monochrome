@@ -1,10 +1,15 @@
 .header {
   background: url(../../../public/images/banner/banner.png) center center /
     cover no-repeat;
-  height: 50vh;
+  height: auto;
   position: relative;
   display: flex;
   flex-direction: column;
+  margin-bottom: 30px;
+
+  @include media-breakpoint-up(md) {
+    height: 50vh;
+  }
 
   &-connect {
     color: $white;
@@ -18,6 +23,23 @@
 
   &-primary {
     background-color: $brand-primary;
+  }
+
+  &-banner-main {
+    position: relative;
+
+    & > a {
+      position: absolute;
+      color: #000;
+      bottom: 15%;
+      right: 10%;
+      border: 1px solid #fff;
+      background: #fff;
+      text-transform: uppercase;
+      padding: 4px 20px;
+      font-size: 10px;
+      line-height: 13px;
+    }
   }
 
   form {

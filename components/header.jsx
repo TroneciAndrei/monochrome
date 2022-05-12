@@ -9,25 +9,25 @@ export default function Home() {
             <ul className="d-flex align-items-center gap-4">
               <li className="ps-xl-5">
                 <a href="" title="Youtube">
-                  <i class="fa-brands fa-youtube"></i>
+                  <i className="fa-brands fa-youtube"></i>
                 </a>
               </li>
 
               <li>
                 <a href="" title="Twitter">
-                  <i class="fa-brands fa-twitter"></i>
+                  <i className="fa-brands fa-twitter"></i>
                 </a>
               </li>
 
               <li>
                 <a href="" title="Facebook">
-                  <i class="fa-brands fa-facebook"></i>
+                  <i className="fa-brands fa-facebook"></i>
                 </a>
               </li>
 
               <li>
                 <a href="" title="Instagram">
-                  <i class="fa-brands fa-instagram"></i>
+                  <i className="fa-brands fa-instagram"></i>
                 </a>
               </li>
 
@@ -41,7 +41,7 @@ export default function Home() {
 
           <div className="header-controls px-0 px-lg-5 d-flex justify-content gap-3 mt-0 mt-md-4">
             <form action="" className="d-none d-md-block">
-              <i class="header-search-mobile fa-solid fa-magnifying-glass"></i>
+              <i className="header-search-mobile fa-solid fa-magnifying-glass"></i>
               <input
                 className="header-search"
                 type="text"
@@ -51,19 +51,19 @@ export default function Home() {
             <ul className="d-flex gap-4">
               <li>
                 <a href="" title="user-account">
-                  <i class="fa-solid fa-user"></i>
+                  <i className="fa-solid fa-user"></i>
                 </a>
               </li>
 
               <li>
                 <a href="" title="user-wishlist">
-                  <i class="fa-solid fa-heart"></i>
+                  <i className="fa-solid fa-heart"></i>
                 </a>
               </li>
 
               <li className="pe-0 pe-xl-5">
                 <a href="" title="user-cart">
-                  <i class="fa-solid fa-cart-shopping"></i>
+                  <i className="fa-solid fa-cart-shopping"></i>
                 </a>
               </li>
             </ul>
@@ -73,10 +73,10 @@ export default function Home() {
         <section className="header-primary">
           <div className="header-primary-mobile container d-flex justify-content-between d-md-none align-items-center px-3 py-3">
             <a href="" title="Mobile menu">
-              <i class="header-mobile-menu fa-solid fa-bars"></i>
+              <i className="header-mobile-menu fa-solid fa-bars"></i>
             </a>
             <form action="">
-              <i class="header-search-mobile fa-solid fa-magnifying-glass"></i>
+              <i className="header-search-mobile fa-solid fa-magnifying-glass"></i>
               <input
                 className="header-search"
                 type="text"
@@ -134,6 +134,10 @@ export default function Home() {
             src="/images/banner/mobile-banner-main.png"
             alt="Banner Monochrome"
           />
+
+          <a href="" title="New in">
+            New in
+          </a>
         </section>
       </header>
     </div>

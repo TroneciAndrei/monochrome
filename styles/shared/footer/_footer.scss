@@ -1,37 +1,195 @@
-.footer {
-  background-color: $brand-secondary;
-
-  &-primary-inner {
-    font-size: 22px;
+.footer-content {
+  @include media-breakpoint-up(md) {
+    background: $brand-secondary;
   }
+  .footer-inner {
+    display: flex;
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: center;
 
-  &-primary-newsletter {
-    font-size: 22px;
-  }
-
-  &-search {
-    width: 261px;
-  }
-
-  &-social {
-    h1 {
-      font-size: 22px;
-      font-weight: 400;
+    @include media-breakpoint-down(md) {
+      max-width: 100%;
+      width: 100%;
+      margin: 0;
+      padding: 0;
     }
 
-    p {
-      font-size: 16px;
-      font-weight: 400;
+    @include media-breakpoint-up(md) {
+      background: $brand-secondary;
+      flex-direction: row;
+      justify-content: space-between;
+      line-height: 30px;
     }
 
-    ul {
-      font-size: 20px;
+    .footer-contact {
+      line-height: 40px;
+    }
 
-      i {
-        transition: transform 0.2s linear;
+    .footer-primary {
+      background-color: $gray-primary;
+      width: 100%;
+      display: flex;
+      justify-content: center;
+      color: $white;
+      height: 352px;
+      text-align: center;
+      margin-top: 44px;
+      max-width: 100%;
 
-        &:hover {
-          transform: scale(1.2);
+      @include media-breakpoint-up(md) {
+        background-color: inherit;
+        color: $black;
+        margin-top: 0;
+        display: block;
+        height: 249px;
+        text-align: left;
+        width: auto;
+      }
+
+      .footer-inner-primary {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        gap: 40px;
+        height: 100%;
+
+        @include media-breakpoint-up(md) {
+          flex-direction: row;
+          justify-content: space-between;
+        }
+
+        .footer-terms {
+          display: flex;
+          flex-direction: column;
+          gap: 10px;
+          text-align: center;
+          font-size: 12px;
+          font-style: italic;
+
+          @include media-breakpoint-up(md) {
+            display: none;
+          }
+
+          a {
+            text-decoration: underline;
+          }
+        }
+      }
+      .footer-nav {
+        display: flex;
+        gap: 5rem;
+        justify-content: space-between;
+        align-items: center;
+        flex-direction: row-reverse;
+
+        @include media-breakpoint-up(md) {
+          flex-direction: row;
+          justify-content: center;
+          gap: 8rem;
+        }
+
+        ul {
+          display: flex;
+          flex-direction: column;
+          gap: 20px;
+
+          @include media-breakpoint-up(md) {
+            font-size: 18px;
+            gap: 10px;
+          }
+        }
+      }
+    }
+  }
+
+  .footer-secondary {
+    background-color: $brand-secondary;
+    padding: 25px 0px;
+    width: 100%;
+
+    @include media-breakpoint-up(md) {
+      padding: 0;
+      width: auto;
+    }
+
+    .footer-search {
+      display: flex;
+      flex-direction: column;
+      justify-content: center;
+      align-items: center;
+      text-align: center;
+      height: 100%;
+      gap: 20px;
+
+      @include media-breakpoint-up(md) {
+        align-items: flex-start;
+      }
+
+      h1 {
+        font-size: 22px;
+        line-height: 30px;
+      }
+
+      p {
+        font-size: 15px;
+        line-height: 18px;
+      }
+
+      form {
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        gap: 20px;
+
+        & > input[type='text'] {
+          width: 261px;
+          border: 1px solid $white;
+        }
+
+        & > button {
+          align-self: center;
+        }
+
+        @include media-breakpoint-up(md) {
+          margin: 0;
+          padding: 0;
+          & > button {
+            align-self: flex-start;
+          }
+
+          & > label {
+            align-self: flex-start;
+            font-size: 22px;
+            line-height: 37px;
+          }
+        }
+      }
+
+      .privacy {
+        text-align: center;
+        font-size: 12px;
+        line-height: 14px;
+
+        a {
+          text-decoration: underline;
+          margin: 0 5px;
+        }
+      }
+
+      .footer-social {
+        h1 {
+          font-size: 22px;
+          margin-bottom: 25px;
+        }
+
+        .footer-social-inner {
+          display: flex;
+          flex-direction: row;
+          justify-content: center;
+          align-items: center;
+          gap: 20px;
+          font-size: 26px;
         }
       }
     }
