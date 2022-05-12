@@ -22,12 +22,16 @@ export default function Home() {
                 </picture>
 
                 <a href="" title="Wishlist" className="product-badge">
-                  <i class="fa-solid fa-heart"></i>
+                  <i className="fa-solid fa-heart"></i>
                 </a>
               </div>
             </article>
 
-            <h1>Monochrome</h1>
+            <div className="product-tile-headings">
+              <a href="" title="Watch Monochrome">
+                <h1>Monochrome</h1>
+              </a>
+            </div>
             <span>$425</span>
           </section>
 
@@ -45,11 +49,15 @@ export default function Home() {
                 </picture>
 
                 <a href="" title="Wishlist" className="product-badge">
-                  <i class="fa-solid fa-heart"></i>
+                  <i className="fa-solid fa-heart"></i>
                 </a>
               </div>
             </article>
-            <h1>Monochrome</h1>
+            <div className="product-tile-headings">
+              <a href="" title="Watch Monochrome">
+                <h1>Monochrome</h1>
+              </a>
+            </div>
             <span>$425</span>
           </section>
 
@@ -67,11 +75,15 @@ export default function Home() {
                 </picture>
 
                 <a href="" title="Wishlist" className="product-badge">
-                  <i class="fa-solid fa-heart"></i>
+                  <i className="fa-solid fa-heart"></i>
                 </a>
               </div>
             </article>
-            <h1>Monochrome</h1>
+            <div className="product-tile-headings">
+              <a href="" title="Watch Monochrome">
+                <h1>Monochrome</h1>
+              </a>
+            </div>
             <span>$425</span>
           </section>
 
@@ -89,11 +101,15 @@ export default function Home() {
                 </picture>
 
                 <a href="" title="Wishlist" className="product-badge">
-                  <i class="fa-solid fa-heart"></i>
+                  <i className="fa-solid fa-heart"></i>
                 </a>
               </div>
             </article>
-            <h1>Monochrome</h1>
+            <div className="product-tile-headings">
+              <a href="" title="Watch Monochrome">
+                <h1>Monochrome</h1>
+              </a>
+            </div>
             <span>$425</span>
           </section>
         </section>
@@ -118,11 +134,15 @@ export default function Home() {
                 </picture>
 
                 <a href="" title="Wishlist" className="product-badge">
-                  <i class="fa-solid fa-heart"></i>
+                  <i className="fa-solid fa-heart"></i>
                 </a>
               </div>
             </article>
-            <h1>Monochrome</h1>
+            <div className="product-tile-headings">
+              <a href="" title="Watch Monochrome">
+                <h1>Monochrome</h1>
+              </a>
+            </div>
             <span>$425</span>
           </section>
 
@@ -140,11 +160,15 @@ export default function Home() {
                 </picture>
 
                 <a href="" title="Wishlist" className="product-badge">
-                  <i class="fa-solid fa-heart"></i>
+                  <i className="fa-solid fa-heart"></i>
                 </a>
               </div>
             </article>
-            <h1>Monochrome</h1>
+            <div className="product-tile-headings">
+              <a href="" title="Watch Monochrome">
+                <h1>Monochrome</h1>
+              </a>
+            </div>
             <span>$425</span>
           </section>
 
@@ -162,11 +186,15 @@ export default function Home() {
                 </picture>
 
                 <a href="" title="Wishlist" className="product-badge">
-                  <i class="fa-solid fa-heart"></i>
+                  <i className="fa-solid fa-heart"></i>
                 </a>
               </div>
             </article>
-            <h1>Monochrome</h1>
+            <div className="product-tile-headings">
+              <a href="" title="Watch Monochrome">
+                <h1>Monochrome</h1>
+              </a>
+            </div>
             <span>$425</span>
           </section>
 
@@ -184,11 +212,15 @@ export default function Home() {
                 </picture>
 
                 <a href="" title="Wishlist" className="product-badge">
-                  <i class="fa-solid fa-heart"></i>
+                  <i className="fa-solid fa-heart"></i>
                 </a>
               </div>
             </article>
-            <h1>Monochrome</h1>
+            <div className="product-tile-headings">
+              <a href="" title="Watch Monochrome">
+                <h1>Monochrome</h1>
+              </a>
+            </div>
             <span>$425</span>
           </section>
         </section>
@@ -241,11 +273,15 @@ export default function Home() {
                 </picture>
 
                 <a href="" title="Wishlist" className="product-badge">
-                  <i class="fa-solid fa-heart"></i>
+                  <i className="fa-solid fa-heart"></i>
                 </a>
               </div>
             </article>
-            <h1>Monochrome</h1>
+            <div className="product-tile-headings">
+              <a href="" title="Watch Monochrome">
+                <h1>Monochrome</h1>
+              </a>
+            </div>
             <span>$425</span>
           </section>
 
@@ -263,11 +299,15 @@ export default function Home() {
                 </picture>
 
                 <a href="" title="Wishlist" className="product-badge">
-                  <i class="fa-solid fa-heart"></i>
+                  <i className="fa-solid fa-heart"></i>
                 </a>
               </div>
             </article>
-            <h1>Monochrome</h1>
+            <div className="product-tile-headings">
+              <a href="" title="Watch Monochrome">
+                <h1>Monochrome</h1>
+              </a>
+            </div>
             <span>$425</span>
           </section>
 
@@ -285,11 +325,15 @@ export default function Home() {
                 </picture>
 
                 <a href="" title="Wishlist" className="product-badge">
-                  <i class="fa-solid fa-heart"></i>
+                  <i className="fa-solid fa-heart"></i>
                 </a>
               </div>
             </article>
-            <h1>Monochrome</h1>
+            <div className="product-tile-headings">
+              <a href="" title="Watch Monochrome">
+                <h1>Monochrome</h1>
+              </a>
+            </div>
             <span>$425</span>
           </section>
 
@@ -307,18 +351,22 @@ export default function Home() {
                 </picture>
 
                 <a href="" title="Wishlist" className="product-badge">
-                  <i class="fa-solid fa-heart"></i>
+                  <i className="fa-solid fa-heart"></i>
                 </a>
               </div>
             </article>
-            <h1>Monochrome</h1>
+            <div className="product-tile-headings">
+              <a href="" title="Watch Monochrome">
+                <h1>Monochrome</h1>
+              </a>
+            </div>
             <span>$425</span>
           </section>
 
-          <footer>
-            <a href="" className="button">
+          <footer className="product-tile-controls">
+            <button type="button" className="button product-tile-a2c">
               View all
-            </a>
+            </button>
           </footer>
         </section>
 
@@ -341,11 +389,15 @@ export default function Home() {
                 </picture>
 
                 <a href="" title="Wishlist" className="product-badge">
-                  <i class="fa-solid fa-heart"></i>
+                  <i className="fa-solid fa-heart"></i>
                 </a>
               </div>
             </article>
-            <h1>Monochrome</h1>
+            <div className="product-tile-headings">
+              <a href="" title="Watch Monochrome">
+                <h1>Monochrome</h1>
+              </a>
+            </div>
             <span>$425</span>
           </section>
 
@@ -363,11 +415,15 @@ export default function Home() {
                 </picture>
 
                 <a href="" title="Wishlist" className="product-badge">
-                  <i class="fa-solid fa-heart"></i>
+                  <i className="fa-solid fa-heart"></i>
                 </a>
               </div>
             </article>
-            <h1>Monochrome</h1>
+            <div className="product-tile-headings">
+              <a href="" title="Watch Monochrome">
+                <h1>Monochrome</h1>
+              </a>
+            </div>
             <span>$425</span>
           </section>
 
@@ -385,11 +441,15 @@ export default function Home() {
                 </picture>
 
                 <a href="" title="Wishlist" className="product-badge">
-                  <i class="fa-solid fa-heart"></i>
+                  <i className="fa-solid fa-heart"></i>
                 </a>
               </div>
             </article>
-            <h1>Monochrome</h1>
+            <div className="product-tile-headings">
+              <a href="" title="Watch Monochrome">
+                <h1>Monochrome</h1>
+              </a>
+            </div>
             <span>$425</span>
           </section>
 
@@ -407,18 +467,22 @@ export default function Home() {
                 </picture>
 
                 <a href="" title="Wishlist" className="product-badge">
-                  <i class="fa-solid fa-heart"></i>
+                  <i className="fa-solid fa-heart"></i>
                 </a>
               </div>
             </article>
-            <h1>Monochrome</h1>
+            <div className="product-tile-headings">
+              <a href="" title="Watch Monochrome">
+                <h1>Monochrome</h1>
+              </a>
+            </div>
             <span>$425</span>
           </section>
 
-          <footer>
-            <a href="" className="button">
+          <footer className="product-tile-controls">
+            <button type="button" className="button product-tile-a2c">
               View all
-            </a>
+            </button>
           </footer>
         </section>
       </section>
