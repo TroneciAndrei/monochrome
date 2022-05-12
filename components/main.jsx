@@ -256,7 +256,7 @@ export default function Home() {
         </section>
         <section className="home-catalog-preview row text-center">
           <header>
-            <h1>Men's</h1>
+            <h1>Mens</h1>
           </header>
 
           <section className="product-tiles col-6 col-md-3">
@@ -372,7 +372,7 @@ export default function Home() {
 
         <section className="home-catalog-preview row text-center">
           <header>
-            <h1>Women's</h1>
+            <h1>Womens</h1>
           </header>
 
           <section className="product-tiles col-6 col-md-3">
