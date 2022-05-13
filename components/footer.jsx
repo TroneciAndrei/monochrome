@@ -1,8 +1,8 @@
 export default function Home() {
   return (
-    <footer className="footer-content">
-      <section className="footer-inner container">
-        <div className="footer-contact d-none d-md-block">
+    <footer className="footer">
+      <div className="footer-inner container">
+        <section className="footer-contact d-none d-md-block">
           <ul>
             <li>
               <a href="tel:+" title="Call us">
@@ -26,134 +26,122 @@ export default function Home() {
               </a>
             </li>
           </ul>
-        </div>
-
-        <section className="footer-primary">
-          <div className="footer-inner-primary">
-            <h1 className="d-block d-md-none">How can we help?</h1>
-
-            <section className="footer-nav">
-              <ul>
-                <li>
-                  <a href="" title="style & fit advice">
-                    style & fit advice
-                  </a>
-                </li>
-
-                <li>
-                  <a href="" title="faqs">
-                    faqs
-                  </a>
-                </li>
-
-                <li>
-                  <a href="" title="delivery">
-                    delivery
-                  </a>
-                </li>
-
-                <li>
-                  <a href="" title="exchanges & returns">
-                    exchanges & returns
-                  </a>
-                </li>
-              </ul>
-
-              <ul>
-                <li>
-                  <a href="" title="about us">
-                    about us
-                  </a>
-                </li>
-
-                <li>
-                  <a href="" title="careers">
-                    careers
-                  </a>
-                </li>
-
-                <li>
-                  <a href="" title="affiliates">
-                    affiliates
-                  </a>
-                </li>
-
-                <li>
-                  <a href="" title="advertising">
-                    advertising
-                  </a>
-                </li>
-              </ul>
-            </section>
-
-            <section className="footer-terms ">
-              <a href="" title="License Terms">
-                terms & conditions
-              </a>
-              <a href="" title="privacy">
-                privacy & cookies
-              </a>
-            </section>
-          </div>
         </section>
 
-        <section className="footer-secondary">
-          <section className="footer-search">
+        <section className="footer-nav">
+          <ul className="footer-nav-first">
+            <li>
+              <a href="" title="style & fit advice">
+                style & fit advice
+              </a>
+            </li>
+
+            <li>
+              <a href="" title="faqs">
+                faqs
+              </a>
+            </li>
+
+            <li>
+              <a href="" title="delivery">
+                delivery
+              </a>
+            </li>
+
+            <li>
+              <a href="" title="exchanges & returns">
+                exchanges & returns
+              </a>
+            </li>
+          </ul>
+
+          <ul className="footer-nav-last">
+            <li>
+              <a href="" title="about us">
+                about us
+              </a>
+            </li>
+
+            <li>
+              <a href="" title="careers">
+                careers
+              </a>
+            </li>
+
+            <li>
+              <a href="" title="affiliates">
+                affiliates
+              </a>
+            </li>
+
+            <li>
+              <a href="" title="advertising">
+                advertising
+              </a>
+            </li>
+          </ul>
+        </section>
+
+        <section className="footer-connect">
+          <div className="fooder-connect-header">
             <h1 className="d-block d-md-none">Lets connect</h1>
             <p className="d-block d-md-none">
               Be the first to receive exclusives offers
             </p>
+          </div>
 
-            <form action="" className="container">
-              <label htmlFor="email" className="d-none d-md-flex">
-                sign up for newsletter
-              </label>
-              <input
-                type="text"
-                placeholder="Email"
-                id="email"
-                name="email"
-                required
-              />
-              <button type="submit" className="button button-submit">
-                Submit
-              </button>
-            </form>
+          <form action="" className="footer-newsletter">
+            <label htmlFor="email" className="d-none d-md-flex">
+              sign up for newsletter
+            </label>
+            <input
+              type="text"
+              placeholder="Email"
+              id="email"
+              name="email"
+              required
+            />
+            <button type="submit" className="button button-submit">
+              Submit
+            </button>
+          </form>
 
-            <div className="privacy d-block d-md-none">
+          <div className="footer-social">
+            <div className="footer-headings d-md-none">
+              <h1 className="d-block d-md-none">We are highly likeable</h1>
               <p>
-                I agree with
-                <a href="" title="Privacy Policy">
+                I agree with{' '}
+                <a
+                  href=""
+                  title="Privacy Policy"
+                  className="text-decoration-underline"
+                >
                   Privacy Policy
-                </a>
+                </a>{' '}
                 and i want to receive emails from Monochrome
               </p>
             </div>
 
-            <div className="footer-social">
-              <h1 className="d-block d-md-none">We are highly likeable</h1>
+            <div className="footer-social-inner">
+              <a href="" title="Youtube">
+                <i className="fa-brands fa-youtube"></i>
+              </a>
 
-              <div className="footer-social-inner">
-                <a href="" title="Youtube">
-                  <i className="fa-brands fa-youtube"></i>
-                </a>
+              <a href="" title="Twitter">
+                <i className="fa-brands fa-twitter"></i>
+              </a>
 
-                <a href="" title="Twitter">
-                  <i className="fa-brands fa-twitter"></i>
-                </a>
+              <a href="" title="Facebook">
+                <i className="fa-brands fa-facebook"></i>
+              </a>
 
-                <a href="" title="Facebook">
-                  <i className="fa-brands fa-facebook"></i>
-                </a>
-
-                <a href="" title="Instagram">
-                  <i className="fa-brands fa-instagram"></i>
-                </a>
-              </div>
+              <a href="" title="Instagram">
+                <i className="fa-brands fa-instagram"></i>
+              </a>
             </div>
-          </section>
+          </div>
         </section>
-      </section>
+      </div>
     </footer>
   );
 }
